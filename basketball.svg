@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#02040a"/>
+      <stop offset="100%" stop-color="#0a1224"/>
+    </linearGradient>
+    <linearGradient id="courtGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0c11"/>
+      <stop offset="100%" stop-color="#141820"/>
+    </linearGradient>
+    <linearGradient id="neonGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffae00" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffae00" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="cityBlur" x="0" y="0" width="100%" height="100%">
+      <feGaussianBlur stdDeviation="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    .ball-container { animation: shoot 4.5s infinite linear; opacity: 0; }
+    .ball-spin { animation: spin 4.5s infinite linear; }
+    .net-group { transform-origin: 685px 115px; animation: swing 4.5s infinite ease-out; }
+    .rim { animation: rim-flash 4.5s infinite linear; }
+    .window-flicker { animation: flicker 3s infinite alternate; }
+    .scoreboard-glow { animation: score-pulse 2s infinite alternate; }
+    .neon-pulse { animation: neon-blink 1.5s infinite alternate; }
+    
+    @keyframes shoot {
+      0%, 5% { transform: translate(162px, 85px); opacity: 0; }
+      6% { opacity: 1; }
+      20% { transform: translate(450px, -65px); }
+      30% { transform: translate(685px, 115px); }
+      32% { transform: translate(685px, 180px); }
+      35% { transform: translate(685px, 245px); }
+      38% { transform: translate(705px, 200px); }
+      42% { transform: translate(725px, 245px); }
+      45%, 100% { transform: translate(750px, 245px); opacity: 0; }
+    }
+    @keyframes spin { 0%, 5% { transform: rotate(0deg); } 45% { transform: rotate(1800deg); } 100% { transform: rotate(1800deg); } }
+    @keyframes swing { 0%, 29% { transform: scale(1, 1) rotate(0deg); } 31% { transform: scale(0.9, 1.3) rotate(2deg); } 35% { transform: scale(1.1, 0.8) rotate(-1deg); } 40% { transform: scale(1, 1) rotate(0deg); } }
+    @keyframes rim-flash { 0%, 29% { stroke: #d35400; } 30%, 35% { stroke: #ffae00; filter: url(#strongGlow); } 40%, 100% { stroke: #d35400; } }
+    @keyframes flicker { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+    @keyframes score-pulse { 0% { opacity: 0.2; } 100% { opacity: 0.6; } }
+    @keyframes neon-blink { 0% { opacity: 0.4; } 100% { opacity: 1; } }
+  </style>
+
+  <rect width="100%" height="100%" fill="url(#skyGrad)" />
+  <circle cx="650" cy="60" r="35" fill="#fff9d6" opacity="0.7" filter="url(#glow)"/>
+
+  <!-- Cityscape with Lights -->
+  <g filter="url(#cityBlur)">
+    <path d="M0,150 L40,150 L40,110 L90,110 L90,140 L130,140 L130,80 L180,80 L180,130 L230,130 L230,50 L280,50 L280,120 L330,120 L330,90 L380,90 L380,140 L430,140 L430,70 L480,70 L480,130 L530,130 L530,40 L580,40 L580,120 L630,120 L630,100 L680,100 L680,140 L730,140 L730,80 L800,80 L800,240 L0,240 Z" fill="#04060d" />
+    <g fill="#f1c40f">
+      <rect class="window-flicker" x="50" y="120" width="4" height="6" opacity="0.4"/>
+      <rect x="60" y="120" width="4" height="6" opacity="0.2"/>
+      <rect class="window-flicker" x="145" y="95" width="5" height="7" opacity="0.6"/>
+      <rect x="160" y="95" width="5" height="7" opacity="0.3"/>
+      <rect x="245" y="70" width="4" height="6" opacity="0.5"/>
+      <rect class="window-flicker" x="245" y="85" width="4" height="6" opacity="0.8"/>
+      <rect class="neon-pulse" x="430" y="75" width="2" height="60" fill="#00f2ff" filter="url(#glow)"/> <!-- Blue Neon Spire -->
+      <rect x="445" y="90" width="5" height="8" opacity="0.4"/>
+      <rect class="window-flicker" x="545" y="60" width="4" height="6" opacity="0.7"/>
+      <rect x="750" y="100" width="5" height="7" opacity="0.3"/>
+    </g>
+  </g>
+
+  <!-- Scoreboard -->
+  <g transform="translate(275, 20)">
+    <rect x="25" y="65" width="3" height="25" fill="#020205"/>
+    <rect x="222" y="65" width="3" height="25" fill="#020205"/>
+    <rect x="0" y="0" width="250" height="70" fill="#05080f" stroke="#ffae00" stroke-width="1.5" rx="3" filter="url(#glow)" />
+    <text x="125" y="22" font-family="monospace" font-size="10" fill="#ffae00" text-anchor="middle" letter-spacing="1">VISITORS: 30</text>
+    <text x="125" y="52" font-family="sans-serif" font-weight="900" font-size="16" fill="#ffffff" text-anchor="middle">WELCOME TO MY PROFILE</text>
+  </g>
+
+  <!-- Court and Neon Reflection -->
+  <rect x="0" y="240" width="800" height="60" fill="url(#courtGrad)"/>
+  <ellipse class="scoreboard-glow" cx="400" cy="245" rx="180" ry="25" fill="url(#neonGlow)" filter="url(#glow)"/>
+
+  <!-- Character -->
+  <g class="curry-player">
+    <ellipse cx="125" cy="242" rx="20" ry="4" fill="#000" opacity="0.5"/>
+    <path d="M 115,185 L 108,215 L 105,240" stroke="#a06945" stroke-width="7.5" stroke-linecap="round" fill="none" />
+    <path d="M 130,185 L 138,215 L 145,240" stroke="#b47b58" stroke-width="8.5" stroke-linecap="round" fill="none" />
+    <path d="M 92,242 L 112,242 L 112,234 Q 92,234 92,242" fill="#eee" />
+    <path d="M 135,242 L 155,242 L 155,234 Q 135,234 135,242" fill="#eee" />
+    <path d="M 110,125 L 138,132 L 134,175 L 108,170 Z" fill="#1D428A" />
+    <path d="M 110,125 L 138,132" stroke="#FFC72C" stroke-width="2.5" />
+    <text x="123" y="155" fill="#FFC72C" font-family="sans-serif" font-weight="900" font-size="12" text-anchor="middle">30</text>
+    <path d="M 108,170 L 134,175 L 140,200 L 112,195 Z" fill="#1D428A" />
+    <path d="M 134,175 L 140,200" stroke="#FFC72C" stroke-width="2" />
+    <circle cx="124" cy="113" r="7.5" fill="#b47b58" />
+    <path d="M 117,112 Q 118,103 128,104 Q 132,105 132,110 L 126,110 Z" fill="#1A110B" />
+    <path d="M 112,130 L 135,115 L 148,100" stroke="#a06945" stroke-width="4" stroke-linecap="round" fill="none" />
+    <path d="M 138,132 L 155,105 L 165,85" stroke="#b47b58" stroke-width="5.5" stroke-linecap="round" fill="none" />
+    <path d="M 148,115 L 165,85" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8" />
+    <path d="M 164,86 Q 168,80 172,88" stroke="#b47b58" stroke-width="3" fill="none" />
+  </g>
+
+  <!-- Hoop and Realistic Net -->
+  <g id="hoop">
+    <rect x="740" y="100" width="12" height="140" fill="#050505" />
+    <rect x="705" y="55" width="8" height="85" fill="#222" />
+    <rect x="705" y="95" width="4" height="20" fill="none" stroke="#ff3300" stroke-width="1.5" />
+    <ellipse cx="685" cy="115" rx="20" ry="5" fill="none" stroke="#d35400" stroke-width="3" class="rim" />
+    
+    <g class="net-group">
+      <!-- High-fidelity Mesh Net -->
+      <g stroke="#ffffff" stroke-width="0.8" opacity="0.6">
+        <!-- Vertical strands with curve -->
+        <path d="M 665,115 Q 670,140 675,155" fill="none"/>
+        <path d="M 673,117 Q 678,140 683,155" fill="none"/>
+        <path d="M 685,117 Q 685,140 685,155" fill="none"/>
+        <path d="M 697,117 Q 692,140 687,155" fill="none"/>
+        <path d="M 705,115 Q 700,140 695,155" fill="none"/>
+        <!-- Diamond Criss-Cross -->
+        <path d="M 665,115 L 685,135 L 705,115" fill="none" opacity="0.4"/>
+        <path d="M 668,125 L 685,145 L 702,125" fill="none" opacity="0.4"/>
+        <path d="M 672,135 L 685,155 L 698,135" fill="none" opacity="0.4"/>
+        <path d="M 676,145 L 685,160 L 694,145" fill="none" opacity="0.4"/>
+      </g>
+    </g>
+    <path d="M 665,115 A 20,5 0 0,0 705,115" fill="none" stroke="#d35400" stroke-width="3" class="rim" />
+  </g>
+
+  <!-- Ball -->
+  <g class="ball-container">
+    <g class="ball-spin">
+      <circle cx="0" cy="0" r="9" fill="#e65c00" filter="url(#glow)"/>
+      <path d="M -9,0 A 4,9 0 0,0 9,0 M 0,-9 A 9,4 0 0,0 0,9" stroke="#4d1f00" stroke-width="1" fill="none" />
+    </g>
+  </g>
+</svg>
