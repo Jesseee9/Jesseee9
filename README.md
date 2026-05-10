@@ -1,4 +1,4 @@
-# Jesse Adejoh 🚀
+# Jesse Adejoh 
 
 **Freelance IT Consultant & Developer |
 
@@ -6,7 +6,7 @@ I help small businesses and individuals bridge the gap between technology and gr
 
 ---
 
-### 🚀 Currently Working On
+### Currently Working On
 * **Gleamworks:** Full-stack business website & custom Python client management system.
 * **GTS Automation:** Python/Graph API framework for automated M365 health checks.
 * **Infrastructure Lab:** Virtualized Windows Server 2022 environment with AD & PowerShell automation.
@@ -34,11 +34,9 @@ I help small businesses and individuals bridge the gap between technology and gr
 
 ---
 
-### 📊 Professional Activity
-![Jesse's Stats](https://github-readme-stats.vercel.app/api?username=Jesseee9&show_icons=true&theme=tokyonight&hide_border=true&title_color=38BDF8&icon_color=38BDF8)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jesseee9&layout=compact&theme=tokyonight&hide_border=true&title_color=38BDF8)
+### ### 📊 GitHub Stats
+![Jesse's Stats](https://github-readme-stats.vercel.app/api?username=Jesseee9&show_icons=true&theme=transparent&title_color=38BDF8&icon_color=38BDF8&text_color=ffffff)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jesseee9&layout=compact&theme=transparent&title_color=38BDF8&text_color=ffffff)
 ---
 
-### 📫 Connect With Me
-* **LinkedIn:** [linkedin.com/in/jesseadejoh](https://www.linkedin.com/in/jesseadejoh)
