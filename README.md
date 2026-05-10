@@ -34,9 +34,3 @@ I help small businesses and individuals bridge the gap between technology and gr
 
 ---
 
-### ### 📊 GitHub Stats
-![Jesse's Stats](https://github-readme-stats.vercel.app/api?username=Jesseee9&show_icons=true&theme=transparent&title_color=38BDF8&icon_color=38BDF8&text_color=ffffff)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jesseee9&layout=compact&theme=transparent&title_color=38BDF8&text_color=ffffff)
----
-
