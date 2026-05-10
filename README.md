@@ -2,40 +2,41 @@
 
 **Freelance IT Consultant & Developer |
 
-I help small businesses and individuals bridge the gap between technology and growth. I specialize in building fast digital presences, automating manual workflows, and managing cloud infrastructure to ensure technology works for the user.
+I help small businesses and individuals bridge the gap between technology and growth. I specialize in building professional digital presences, automating manual workflows with AI, and managing cloud infrastructure to ensure technology works for the user.
 
 ---
 
 ### 🚀 Currently Working On
-* **Gleamworks:** Developing a high-performance business website and custom client management system using HTML, CSS, and Python.
-* **GTS Automation Suite:** Architecting a Python-based automation framework for Microsoft 365 health checks using the Graph API and Openpyxl.
-* **Enterprise Infrastructure Lab:** Maintaining a virtualized Windows Server 2022 domain with Active Directory, DHCP, and automated PowerShell provisioning.
+* **Gleamworks:** Full-stack business website & custom Python client management system.
+* **GTS Automation:** Python/Graph API framework for automated M365 health checks.
+* **Infrastructure Lab:** Virtualized Windows Server 2022 environment with AD & PowerShell automation.
 
-### 📚 Certifications & Learning
-* **Certifications:** Google IT Support Professional, Microsoft Applied Skills (Entra ID, AI Agents), City & Guilds Level 2 ICT.
-* **Python:** Scaling automation and API integrations.
-* **Ecosystems:** Google Workspace Admin, Chrome DevTools, and Microsoft 365 security hardening.
+### 📚 Specialized Skills
+* **AI & Automation:** Certified in building AI Agents & Research Agents. Expertise in Power Automate & Microsoft Graph API.
+* **Cloud Identity:** Entra ID (Azure AD) management, MFA implementation, and Security Hardening.
+* **Web Development:** Modern, responsive site design using HTML5, CSS3, and automated Netlify deployments.
 
 ---
 
-### 🛠️ Tech Stack & Services
+### 🛠️ Tech Stack
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![AI Agents](https://img.shields.io/badge/AI_Agents-FF6F61?style=for-the-badge&logo=openai&logoColor=white)
+![Web Dev](https://img.shields.io/badge/Web_Development-005A9C?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft_365-0078D4?style=for-the-badge&logo=microsoft-365&logoColor=white)
-![Microsoft Azure](https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![ServiceNow](https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white)
 
 **Core Competencies:**
-* **Automation:** Microsoft Graph API, Python, Power Automate, PowerShell.
-* **Infrastructure & Cloud:** Entra ID, Exchange Online, Windows Server, Ubuntu, Azure.
-* **Development Tools:** GitHub, Netlify, Chrome DevTools, VS Code.
+* **Development:** Python, HTML5, CSS3, JavaScript basics, openpyxl.
+* **Systems:** Windows Server (AD/DNS/DHCP), VMware, Ubuntu/Linux, ServiceNow.
+* **Cloud/Security:** Entra ID, Exchange Online, MFA, Security Defaults.
 
 ---
 
-### 📊 GitHub Stats
-![Jesse's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jesseee9&show_icons=true&theme=tokyonight&hide_border=true&title_color=38BDF8&icon_color=38BDF8&text_color=FFFFFF)
+### 📊 Professional Activity
+![Jesse's Stats](https://github-readme-stats.vercel.app/api?username=Jesseee9&show_icons=true&theme=tokyonight&hide_border=true&title_color=38BDF8&icon_color=38BDF8)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jesseee9&layout=compact&theme=tokyonight&hide_border=true&title_color=38BDF8)
 
 ---
 
