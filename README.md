@@ -1,6 +1,6 @@
 # Jesse Adejoh 🚀
 
-**Freelance IT Consultant & Developer | Chester, UK**
+**Freelance IT Consultant & Developer |
 
 I help small businesses and individuals bridge the gap between technology and growth. I specialize in building fast digital presences, automating manual workflows, and managing cloud infrastructure to ensure technology works for the user.
 
