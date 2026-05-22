@@ -48,4 +48,4 @@ I help small businesses and individuals bridge the gap between technology and gr
 
 ---
 
-*Open to IT Support roles and apprenticeships | Hull, UK*
+*Open to IT Support roles and apprenticeships | Liverpool/Chester, UK*
