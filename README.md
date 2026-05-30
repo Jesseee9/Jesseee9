@@ -1,6 +1,6 @@
 # Jesse Adejoh
 
-**Aspiring IT Support Engineer** | Hull, UK | Open to IT Support roles and apprenticeships
+**Aspiring IT Support Engineer** | Open to IT Support roles and apprenticeships
 
 I'm transitioning into IT from a logistics background, building real-world skills through hands-on lab work, Python automation, and cloud identity management. My focus is MSP environments — Active Directory, Microsoft 365, ServiceNow, and the tooling that makes support work efficient.
 
