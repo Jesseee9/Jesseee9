@@ -56,11 +56,5 @@ A personal IT operations agent built with Google ADK and Gemini. Connects to a l
 
 ---
 
-## 📁 Past Projects
-
-- **[Gleamworks](https://github.com/Jesseee9/gleamworks)** — Business website for a cleaning company, deployed via Netlify
-- **GTS Automation** — Python and Graph API scripts for Microsoft 365 health checks
-
----
 
 *Currently focused on IT support roles and apprenticeships in the Liverpool/Chester area.*
