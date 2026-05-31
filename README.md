@@ -2,7 +2,7 @@
 
 **Aspiring IT Support Engineer** | Open to IT Support roles and apprenticeships
 
-I build real-world skills through hands-on lab work, Python automation, and cloud identity management. My focus is on IT infrastructure and efficient service delivery — mastering tools like Active Directory, Microsoft 365, and ServiceNow to support users effectively.
+I build real-world skills through hands-on lab work, Python automation, and cloud identity management. My focus is on IT infrastructure and efficient service delivery — mastering tools like Active Directory,Entra ID,Microsoft 365, and ServiceNow to support users effectively.
 ---
 
 ## 🔧 Currently Building
