@@ -4,7 +4,7 @@
 
 ### Aspiring IT Support Engineer
 
-Hull, UK · Open to IT Support roles and apprenticeships
+Open to IT Support roles and apprenticeships
 
 I build real-world skills through hands-on lab work, Python automation, and cloud identity management. My focus is IT infrastructure and efficient service delivery — Active Directory, Entra ID, Microsoft 365, and ServiceNow.
 
