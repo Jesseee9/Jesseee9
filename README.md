@@ -14,7 +14,7 @@ I build real-world skills through hands-on lab work, Python automation, and clou
 
 ## 🔧 Currently Building
 
-### [IT Ops Training Lab](https://github.com/Jesseee9/Enterprise-IT-Operations-and-Workflow.git)
+### [Enterprise-IT-Operations-and-Workflow](https://github.com/Jesseee9/Enterprise-IT-Operations-and-Workflow.git)
 
 A 14-day repeatable lab built to simulate working in an MSP environment. Every task follows a real support workflow — not isolated exercises. Where Python can automate something, it does. Where it can’t, the task is done manually and logged.
 
