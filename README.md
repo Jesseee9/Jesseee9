@@ -16,12 +16,11 @@ I build real-world skills through hands-on lab work, Python automation, and clou
 
 ### [Enterprise-IT-Operations-and-Workflow](https://github.com/Jesseee9/Enterprise-IT-Operations-and-Workflow.git)
 
-A 14-day repeatable lab built to simulate working in an MSP environment. Every task follows a real support workflow — not isolated exercises. Where Python can automate something, it does. Where it can’t, the task is done manually and logged.
-
-- **Systems & Infrastructure:** Windows Server 2022 | Active Directory | DNS | DHCP | PowerShell
-- **ITSM Integration:** ServiceNow PDI — real incident creation, updates, and closure
-- **Automation:** Python — provisioning, offboarding, bulk operations, audit logging
-- **Progression:** Loops with increasing difficulty: error injection, time constraints, memory-only runs
+A fully automated IT operations environment simulating real MSP workflows across Active Directory, ServiceNow, Microsoft Entra ID, and cloud infrastructure.
+	•	Identity Management: AD provisioning, bulk onboarding, offboarding, account lockout, Entra ID via Graph API
+	•	Security Operations: Firewall remediation, Python script hardening, secrets management
+	•	Network Operations: DNS, DHCP, connectivity diagnostics, evidence logging
+	•	CI/CD: GitHub Actions audit summary pipeline on every push
 
 ### [Ren AI Agent](https://github.com/Jesseee9/Ren-AI-Agent)
 
