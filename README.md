@@ -17,10 +17,11 @@ I build real-world skills through hands-on lab work, Python automation, and clou
 ### [Enterprise-IT-Operations-and-Workflow](https://github.com/Jesseee9/Enterprise-IT-Operations-and-Workflow.git)
 
 A fully automated IT operations environment simulating real MSP workflows across Active Directory, ServiceNow, Microsoft Entra ID, and cloud infrastructure.
- Identity Management: AD provisioning, bulk onboarding, offboarding, account lockout, and Entra ID via Graph API.
- Security Operations: Firewall remediation, Python script hardening, and secrets management.
- Network Operations: DNS, DHCP, connectivity diagnostics, and evidence logging.
- CI/CD: GitHub Actions audit summary pipeline on every push.
+
+- Identity Management: AD provisioning, bulk onboarding, offboarding, account lockout, Entra ID via Graph API
+- Security Operations: Firewall remediation, Python script hardening, secrets management
+- Network Operations: DNS, DHCP, connectivity diagnostics, evidence logging
+- CI/CD: GitHub Actions audit summary pipeline on every push
 
 ### [Ren AI Agent](https://github.com/Jesseee9/Ren-AI-Agent)
 
